@@ -467,6 +467,26 @@ h1, h2, h3, h4, h5, h6 {
   background: #68B0AB;
 }
 
+.btn-general {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: #6096BA;
+}
+
+.btn-general:hover {
+    background: #68B0AB;
+    color:#ffffff;
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
