@@ -4,6 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
 !(function($) {
   "use strict";
 
@@ -14,7 +15,21 @@
         $(this).remove();
       });
     }
-  });
+  });  
+
+  // Load page content on button click 
+// $(document).ready(function(){
+//   $("#contentLoad").click(function(){
+//     var VF_row = "<div class='row' id='dataTarget'> </div>";
+//     var VF_1 = "<div class='col-md-6'><div class='portfolio-item'><div style='padding-bottom:56.25%; position:relative; display:block; width: 100%'><iframe width='100%' height='100%' src='https://www.youtube.com/embed/Ayd8_FD2H58' frameborder='0' allowfullscreen='' style='position:absolute; top:0; left: 0'></iframe> </div> </div> </div>"; 
+//     var VF_2 = "<div class='col-md-6'><div class='portfolio-item'><div style='padding-bottom:56.25%; position:relative; display:block; width: 100%'><iframe width='100%' height='100%' src='https://www.youtube.com/embed/mWpbv9oh-zQ' frameborder='0' allowfullscreen='' style='position:absolute; top:0; left: 0'></iframe> </div> </div> </div>"; 
+
+//     $("#contentLoad").before(VF_row);  
+//     $("#dataTarget").append(VF_1); 
+
+//     $("#contentLoad").hide(); 
+//   });
+// });
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
