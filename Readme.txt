@@ -1,6 +1,5 @@
-Thanks for downloading this template!
+# Personal Portfolio 
+Showcase of video, programming and graphic design work/skills. Also contains resume and work experience. 
 
-Template Name: Kelly
-Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+https://kaiyotesoft.github.io/portfolio/portfolio.html
+
